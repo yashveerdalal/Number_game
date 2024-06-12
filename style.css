@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+    color: #000000;
+    font-size: 4em;
+    font-family:cursive
+}
+
+p{
+    font-size: 2em;
+    font-weight: bold;
+    color: #5d042e;
+
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    min-width: 25%;
+    font-size: large;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    font-weight: bold;
+   
+}
